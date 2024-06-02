@@ -1,0 +1,251 @@
+your-username.github.io/
+├── index.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美容室ARKS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="ARKSロゴ" class="fade-in">
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="services.html">サービス</a></li>
+                <li><a href="staff.html">スタッフ</a></li>
+                <li><a href="gallery.html">ギャラリー</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main-visual" class="fade-in">
+        <img src="images/salon.jpg" alt="サロン写真">
+        <h1>髪や頭皮を大切にしたい方へ</h1>
+        <p>常に髪に優しい施術をお約束します。カウンセリング×ダメージレス施術で貴方だけの美しさを引き出します。</p>
+    </section>
+
+    <section id="about-salon" class="slide-in">
+        <h2>美容室ARKSについて</h2>
+        <p>【マンツーマン施術】頭皮環境を改善するこだわりのオゾンヘッドスパ、髪質やクセに合わせたフルカスタム薬剤で貴方の髪や頭皮に寄り添います。カラーやパーマ、縮毛矯正でもダメージレスに美しさを叶えます。しっかりカウンセリングを行うので、イメージチェンジも安心です。</p>
+    </section>
+
+    <section id="services" class="slide-in">
+        <h2>おすすめサービス</h2>
+        <div class="service">
+            <h3>縮毛矯正</h3>
+            <p>髪質に合わせて薬剤をフルカスタムし、マンツーマン施術で貴方のクセと向き合います。しっかりとしたカウンセリングで髪のお悩みも解決。髪に負担の少ない薬剤で、毛先まで指通り滑らかな美しいストレートヘアを実現します。</p>
+        </div>
+        <div class="service">
+            <h3>ヘッドスパ</h3>
+            <p>頭皮環境を改善したい方におすすめ。エイジングケアとして話題のオゾンスパで、カラー時の炎症やにおいを抑えます。普段のシャンプーでは落とせない汚れも除去し、健康的な美髪を育てます。頭皮のツボ押しで、疲れを癒しながらリフレッシュ。</p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="fade-in">
+        <h2>お客様の声</h2>
+        <a href="https://beauty.hotpepper.jp/slnH000205264/review/" target="_blank">口コミを見る</a>
+        <p>平均評価: 4.9/5</p>
+    </section>
+
+    <section id="special-offers" class="slide-in">
+        <h2>特別割引とキャンペーン情報</h2>
+        <p>新規顧客向けの特別割引やキャンペーン情報はこちらから。</p>
+        <a href="#">メールマガジン登録</a>
+        <div>
+            <h3>Instagram</h3>
+            <a href="https://www.instagram.com/arks__0/" target="_blank">@arks__0</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>〒933-0007、富山県高岡市角106-68</p>
+        <p>電話番号: 0766-28-8381</p>
+        <a href="https://www.instagram.com/arks__0/" target="_blank">Instagram: @arks__0</a>
+        <p>&copy; 美容室ARKS</p>
+    </footer>
+</body>
+</html>
+
+├── services.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サービス - 美容室ARKS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="ARKSロゴ">
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="services.html">サービス</a></li>
+                <li><a href="staff.html">スタッフ</a></li>
+                <li><a href="gallery.html">ギャラリー</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="service-details">
+        <h2>サービス詳細</h2>
+        <div class="service">
+            <h3>縮毛矯正</h3>
+            <p>髪質に合わせて薬剤をフルカスタムし、マンツーマン施術で貴方のクセと向き合います。しっかりとしたカウンセリングで髪のお悩みも解決。髪に負担の少ない薬剤で、毛先まで指通り滑らかな美しいストレートヘアを実現します。</p>
+        </div>
+        <div class="service">
+            <h3>ヘッドスパ</h3>
+            <p>頭皮環境を改善したい方におすすめ。エイジングケアとして話題のオゾンスパで、カラー時の炎症やにおいを抑えます。普段のシャンプーでは落とせない汚れも除去し、健康的な美髪を育てます。頭皮のツボ押しで、疲れを癒しながらリフレッシュ。</p>
+        </div>
+        <div class="service">
+            <h3>まつ毛パーマ</h3>
+            <p>杏奈が担当。詳細はお問い合わせください。</p>
+        </div>
+        <div class="service">
+            <h3>ネイルサービス</h3>
+            <p>アシスタントのakiが担当。詳細はお問い合わせください。</p>
+        </div>
+        <a href="https://beauty.hotpepper.jp/slnH000205264/coupon/" target="_blank">ホットペッパービューティーのサービス詳細を見る</a>
+    </section>
+
+    <footer>
+        <p>〒933-0007、富山県高岡市角106-68</p>
+        <p>電話番号: 0766-28-8381</p>
+        <a href="https://www.instagram.com/arks__0/" target="_blank">Instagram: @arks__0</a>
+        <p>&copy; 美容室ARKS</p>
+    </footer>
+</body>
+</html>
+
+├── staff.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スタッフ - 美容室ARKS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="ARKSロゴ">
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="services.html">サービス</a></li>
+                <li><a href="staff.html">スタッフ</a></li>
+                <li><a href="gallery.html">ギャラリー</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="staff">
+        <h2>スタッフ紹介</h2>
+        <div class="staff-member">
+            <img src="images/blackchan.jpg" alt="黒ちゃん">
+            <h3>黒ちゃん</h3>
+            <p>得意分野: 縮毛矯正</p>
+            <p>経験年数: 20年以上</p>
+        </div>
+        <div class="staff-member">
+            <img src="images/kuroda.jpg" alt="黒田恵子">
+            <h3>黒田恵子</h3>
+            <p>得意分野: ヘッドスパ</p>
+            <p>経験年数: 20年以上</p>
+        </div>
+        <div class="staff-member">
+            <img src="images/anna.jpg" alt="杏奈">
+            <h3>杏奈</h3>
+            <p>得意分野: まつ毛パーマ</p>
+        </div>
+        <div class="staff-member">
+            <h3>aki</h3>
+            <p>得意分野: ネイル</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>〒933-0007、富山県高岡市角106-68</p>
+        <p>電話番号: 0766-28-8381</p>
+        <a href="https://www.instagram.com/arks__0/" target="_blank">Instagram: @arks__0</a>
+        <p>&copy; 美容室ARKS</p>
+    </footer>
+</body>
+</html>
+
+├── gallery.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ギャラリー - 美容室ARKS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="ARKSロゴ">
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="services.html">サービス</a></li>
+                <li><a href="staff.html">スタッフ</a></li>
+                <li><a href="gallery.html">ギャラリー</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="gallery">
+        <h2>ギャラリー</h2>
+        <div class="gallery-item">
+            <img src="images/service1.jpg" alt="サービス例1">
+        </div>
+        <div class="gallery-item">
+            <img src="images/service2.jpg" alt="サービス例2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/service3.jpg" alt="サービス例3">
+        </div>
+        <!-- 必要に応じて他の写真も追加 -->
+    </section>
+
+    <footer>
+        <p>〒933-0007、富山県高岡市角106-68</p>
+        <p>電話番号: 0766-28-8381</p>
+        <a href="https://www.instagram.com/arks__0/" target="_blank">Instagram: @arks__0</a>
+        <p>&copy; 美容室ARKS</p>
+    </footer>
+</body>
+</html>
+
+├── contact.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ - 美容室ARKS</title>
+    <link rel="stylesheet" href="
+
+├── css/
+│   └── styles.css
+├── images/
+│   └── logo.png
+│   └── salon.jpg
+│   └── blackchan.jpg
+│   └── kuroda.jpg
+│   └── anna.jpg
+│   └── service1.jpg
+│   └── service2.jpg
+│   └── service3.jpg
+└── js/
+    └── script.js
